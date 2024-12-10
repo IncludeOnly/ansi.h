@@ -89,11 +89,7 @@ ANSIAPI void ansi_color(char* buffer, int color, int bg)
 
 ANSIAPI void ansi_clear_screen()
 {
-#ifdef _WIN32
-    system("cls");
-#else
-    system("clear");
-#endif
+    printf("\e[2J\e[H");
 }
 
 ANSIAPI void ansi_print_color_table()
