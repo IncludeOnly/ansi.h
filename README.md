@@ -3,7 +3,7 @@
 ## Get started
 
 ```bash
-wget https://github.com/IncludeOnly/ansi.h/blob/main/ansi.h
+wget https://raw.githubusercontent.com/IncludeOnly/ansi.h/refs/heads/main/ansi.h
 ```
 
 ## Example
