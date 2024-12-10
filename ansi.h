@@ -62,7 +62,6 @@ ANSIAPI void ansi_combine(char* buffer, const char* seq1, const char* seq2);
 ANSIAPI void ansi_clear_screen();
 ANSIAPI void ansi_print_color_table();
 
-#define ANSI_IMPLEMENTATION
 #ifdef ANSI_IMPLEMENTATION
 ANSIAPI void ansi_combine(char* buffer, const char* seq1, const char* seq2)
 {
